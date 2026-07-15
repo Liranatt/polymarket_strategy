@@ -1,0 +1,124 @@
+name: Standard CEM Notebook Deep Audit
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout audit branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install nbformat nbclient ruff
+          python -m pip check
+
+      - name: Static fatal-error checks
+        run: |
+          python -m compileall -q core backtesting audit
+          ruff check core backtesting audit --select E9,F63,F7,F82
+
+      - name: Execute the actual notebook from scratch
+        env:
+          PYTHONUNBUFFERED: '1'
+          MPLBACKEND: Agg
+        run: |
+          mkdir -p audit_artifacts
+          python - <<'PY'
+          from pathlib import Path
+          import nbformat
+          from nbclient import NotebookClient
+
+          source = Path('notebooks/standard_cem_strategy.ipynb')
+          target = Path('audit_artifacts/executed_standard_cem_strategy.ipynb')
+          nb = nbformat.read(source, as_version=4)
+          client = NotebookClient(
+              nb,
+              timeout=7200,
+              kernel_name='python3',
+              resources={'metadata': {'path': str(Path.cwd())}},
+              allow_errors=False,
+          )
+          client.execute()
+          nbformat.write(nb, target)
+          PY
+
+      - name: Baseline CEM seed sensitivity
+        env:
+          PYTHONUNBUFFERED: '1'
+          MPLBACKEND: Agg
+        run: |
+          for seed in 42 43 44 45 46; do
+            python -m backtesting.optimize_cem \
+              --experiments baseline \
+              --benchmarks SPY QQQ \
+              --seed "$seed" \
+              --run-id "notebook_seed_${seed}" \
+              --no-allocation-log \
+              --no-forensics-log
+          done
+
+      - name: One-day delayed Polymarket signal stress
+        env:
+          PYTHONUNBUFFERED: '1'
+          MPLBACKEND: Agg
+        run: |
+          python audit/transform_probs.py delay1d
+          python -m backtesting.optimize_cem \
+            --experiments baseline \
+            --benchmarks SPY QQQ \
+            --seed 42 \
+            --run-id notebook_delay1d \
+            --no-allocation-log \
+            --no-forensics-log
+          python audit/transform_probs.py restore
+
+      - name: Circular time-shift probability placebo
+        env:
+          PYTHONUNBUFFERED: '1'
+          MPLBACKEND: Agg
+        run: |
+          python audit/transform_probs.py circular_placebo
+          python -m backtesting.optimize_cem \
+            --experiments baseline \
+            --benchmarks SPY QQQ \
+            --seed 42 \
+            --run-id notebook_circular_placebo \
+            --no-allocation-log \
+            --no-forensics-log
+          python audit/transform_probs.py restore
+
+      - name: Generate notebook-specific forensic report
+        run: |
+          python audit/notebook_deep_audit.py | tee audit_artifacts/notebook_deep_audit_console.txt
+          git status --short > audit_artifacts/git_status_after_execution.txt
+
+      - name: Upload audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: standard-cem-notebook-deep-audit
+          retention-days: 7
+          if-no-files-found: error
+          path: |
+            audit_artifacts/
+            runs/standard_cem_notebook/
+            runs/notebook_seed_*/
+            runs/notebook_delay1d/
+            runs/notebook_circular_placebo/
