@@ -1,0 +1,28 @@
+name: Export Audit Inputs
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package exact audit inputs
+        run: |
+          mkdir -p exported/data exported/core exported/backtesting
+          cp data/probs.pkl exported/data/probs.pkl
+          cp data/polarity_labels.json exported/data/polarity_labels.json
+          cp -r core/* exported/core/
+          cp -r backtesting/* exported/backtesting/
+          cp requirements.txt exported/requirements.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exact-audit-inputs
+          path: exported/
+          retention-days: 2
