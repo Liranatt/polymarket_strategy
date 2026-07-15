@@ -1,0 +1,63 @@
+name: ChatGPT Strategy Audit
+
+on:
+  push:
+    branches:
+      - chatgpt/audit-2026-07-15
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout audit branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install ruff
+          python -m pip check
+
+      - name: Static failure checks
+        run: |
+          python -m compileall -q core backtesting audit
+          ruff check core backtesting audit --select E9,F63,F7,F82
+
+      - name: Run canonical baseline CEM backtest
+        env:
+          PYTHONUNBUFFERED: '1'
+          MPLBACKEND: Agg
+        run: |
+          python -m backtesting.optimize_cem \
+            --experiments baseline \
+            --benchmarks SPY QQQ \
+            --seed 42 \
+            --run-id audit_ci
+
+      - name: Audit fresh outputs and explain performance
+        run: |
+          python audit/audit_strategy.py | tee audit_report.txt
+
+      - name: Upload complete audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: strategy-audit
+          if-no-files-found: warn
+          retention-days: 7
+          path: |
+            audit_report.txt
+            audit_report.json
+            runs/audit_ci/
