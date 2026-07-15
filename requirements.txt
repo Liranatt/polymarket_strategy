@@ -1,0 +1,9 @@
+# Everything the standard-CEM notebook needs (see notebooks/standard_cem_strategy.ipynb).
+numpy>=2.0
+pandas>=2.0
+pyarrow>=16.0
+matplotlib>=3.8
+# Optional but strongly recommended: JIT-compiles the trade kernel. Without it
+# the CEM search falls back to a much slower pure-Python reference path.
+numba>=0.60
+jupyter

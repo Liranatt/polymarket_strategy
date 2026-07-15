@@ -1,0 +1,778 @@
+market_id,question,symbol,relevance,polarity,polarity_source
+554707,Another US military action against Iran by June 30?,USO,0.7200000000000001,1,llm
+554707,Another US military action against Iran by June 30?,XLE,0.6400000000000001,1,llm
+0xd7f3e1a3cff3fed56a11e549ad2060d5bdd93337ad917baa7b069c13446d4a2f,Apple Q2 iPhone revenue above $56B?,AAPL,1.0,1,llm
+2036695,FDA approves Axsome Therapeutics' AXS-05?,AXSM,1.0,1,llm
+2115679,FDA approves Daiichi Sankyo & AstraZeneca's Enhertu?,AZN,0.7200000000000001,1,llm
+569210,FDA approves Donidalorsen?,IONS,0.9,1,llm
+569211,FDA approves EYLEA HD?,REGN,0.95,1,llm
+569209,FDA approves FILSPARI REMS modification?,TVTX,0.9,1,llm
+0x11039e885cdc6019a73715569da44dd3577debdaf54a7a85f107e345dd5cc97d,FDA approves Gilead’s lenacapavir for treating HIV?,GILD,0.95,1,llm
+1993772,FDA approves Grace Therapeutics’ GTx-104?,GRCE,1.0,1,llm
+569181,FDA approves Insmed’s Brensocatib for bronchiectasis?,INSM,0.95,1,llm
+569179,FDA approves LENZ Therapeutics’ LNZ100 for presbyopia by August 31?,LENZ,0.95,1,llm
+569208,FDA approves Leqembi auto-injection for early Alzheimer’s?,BIIB,0.95,1,llm
+2307750,FDA approves MannKind's Afrezza?,MNKD,1.0,1,llm
+2036597,FDA approves Merck's Doravirine/Islatravir?,MRK,1.0,1,llm
+550768,FDA approves Merck’s clesrovimab infant RSV prevention (MK‑1654)?,MRK,0.95,1,llm
+569184,FDA approves PTC Therapeutics’ Vatiquinone for Friedreich’s ataxia?,PTCT,0.95,1,llm
+569187,FDA approves Precigen’s PRGN-2012 for recurrent respiratory papillomatosis?,PGEN,0.95,1,llm
+0x7a8c707fb249d07d578a30ec22f2532eda55b76784e1bf0e52d64802209e0f0a,FDA approves Regeneron’s Dupixent for bullous pemphigoid?,REGN,0.9,1,llm
+2036554,FDA approves Sanofi's Dupixent?,SNY,0.7,1,llm
+2036685,FDA approves Sanofi's Tzield?,SNY,0.7,1,llm
+569190,FDA approves Sanofi’s Rilzabrutinib for immune thrombocytopenia?,SNY,0.9,1,llm
+1993856,FDA approves Sanofi’s Subcutaneous Sarclisa?,SNY,0.765,1,llm
+569186,FDA approves Telix Pharmaceuticals’ TLX250-CDx for kidney cancer imaging?,TLX,0.95,1,llm
+569182,FDA approves Tonix Pharmaceuticals’ TNX-102 SL for fibromyalgia?,TNXP,0.95,1,llm
+553038,FDA approves Unicycive’s Oxylanthanum Carbonate (OLC)?,UNCY,0.95,1,llm
+2115652,FDA approves argenx's Vyvgart?,ARGX,0.9,1,llm
+0x4c0add712e5fb48fa3cc5339ef9abe48d8d815be365672428053e4d345f3dae3,House passes Iran war powers resolution this week?,BNO,0.9,-1,llm
+0x4c0add712e5fb48fa3cc5339ef9abe48d8d815be365672428053e4d345f3dae3,House passes Iran war powers resolution this week?,USO,0.9,-1,llm
+1169204,Iran Strike on Israel by January 31?,USO,0.6000000000000001,1,llm
+511520,Iran strike on Israel before December?,USO,0.7,1,llm
+511520,Iran strike on Israel before December?,XLE,0.5599999999999999,1,llm
+551458,Iran strike on Israel in June?,USO,0.5525,1,llm
+1168450,Iran strike on US military by January 31?,USO,0.6400000000000001,1,llm
+0x3781472356e548fd9d7760119b34f93089b732774619046ac1fb98fd58c44757,Iran x Israel conflict ends before July?,CVX,0.9,-1,llm
+0x3781472356e548fd9d7760119b34f93089b732774619046ac1fb98fd58c44757,Iran x Israel conflict ends before July?,USO,1.0,-1,llm
+0x3781472356e548fd9d7760119b34f93089b732774619046ac1fb98fd58c44757,Iran x Israel conflict ends before July?,XOM,0.9,-1,llm
+0x720908aa876297998badd8a7ba1ed21225d855e72269cdd3140a079d80ba7171,Iran x Israel conflict ends by Friday?,BNO,0.9,-1,llm
+0x720908aa876297998badd8a7ba1ed21225d855e72269cdd3140a079d80ba7171,Iran x Israel conflict ends by Friday?,USO,0.9,-1,llm
+0x8183a221622f2d5d2b46da86c80d55a61f43d35829589e03c1efae9d072638c5,Iran x Israel/US conflict ends by April 7?,USO,0.9,-1,llm
+0x836e01d34c67bbae976e7dd26b5ef2ec5e0f15f261f62ebae3d3ef4de32258c0,Israel announces end of military operations against Iran before July?,USO,1.0,-1,llm
+0xc94d93a9adf89a2fe3e7ae6ddd2b36d00ee5ce6a099fc5a8c777af19ca54b7d0,Israel announces end of military operations against Iran by Friday?,BNO,0.9,-1,llm
+0xc94d93a9adf89a2fe3e7ae6ddd2b36d00ee5ce6a099fc5a8c777af19ca54b7d0,Israel announces end of military operations against Iran by Friday?,USO,0.9,-1,llm
+551649,Israel military action against Iran before August?,USO,0.54,1,llm
+504421,Israel military action against Iran in August?,USO,0.7,1,llm
+504421,Israel military action against Iran in August?,XLE,0.5599999999999999,1,llm
+552099,Israel military action against Iran in July?,USO,0.54,1,llm
+552109,Israel strike on Iran on June 14?,USO,0.54,1,llm
+552110,Israel strike on Iran on June 15?,USO,0.54,1,llm
+552111,Israel strike on Iran on June 16?,USO,0.54,1,llm
+552112,Israel strike on Iran on June 17?,USO,0.54,1,llm
+552113,Israel strike on Iran on June 18?,USO,0.54,1,llm
+552114,Israel strike on Iran on June 19?,USO,0.5850000000000001,1,llm
+552114,Israel strike on Iran on June 19?,XLE,0.52,1,llm
+552115,Israel strike on Iran on June 20?,USO,0.5850000000000001,1,llm
+552115,Israel strike on Iran on June 20?,XLE,0.52,1,llm
+554000,Israel strike on Iran on June 24?,USO,0.5850000000000001,1,llm
+554000,Israel strike on Iran on June 24?,XLE,0.52,1,llm
+554001,Israel strike on Iran on June 25?,USO,0.5850000000000001,1,llm
+554001,Israel strike on Iran on June 25?,XLE,0.52,1,llm
+554002,Israel strike on Iran on June 26?,USO,0.5850000000000001,1,llm
+554002,Israel strike on Iran on June 26?,XLE,0.52,1,llm
+554003,Israel strike on Iran on June 27?,USO,0.5850000000000001,1,llm
+554003,Israel strike on Iran on June 27?,XLE,0.52,1,llm
+554004,Israel strike on Iran on June 28?,USO,0.5850000000000001,1,llm
+554004,Israel strike on Iran on June 28?,XLE,0.52,1,llm
+554005,Israel strike on Iran on June 29?,USO,0.5850000000000001,1,llm
+554005,Israel strike on Iran on June 29?,XLE,0.52,1,llm
+554006,Israel strike on Iran on June 30?,USO,0.5850000000000001,1,llm
+554006,Israel strike on Iran on June 30?,XLE,0.52,1,llm
+546305,Israel strike on Iranian nuclear facility before July?,USO,0.63,1,llm
+551653,Israel strike on Tehran before July?,USO,0.63,1,llm
+994900,"Israel strikes Iran by January 31, 2026?",USO,0.5599999999999999,1,llm
+551654,Israel strikes Iranian oil in June?,USO,0.8,1,llm
+508672,Israel strikes Iranian oil in October?,USO,0.8,1,llm
+508672,Israel strikes Iranian oil in October?,XLE,0.6400000000000001,1,llm
+0x9b9e407d51ae6f81ffd71d40a972be8987f0d43601cb178253ad0ce4837ffb17,Israel x Hezbollah Ceasefire in September?,BNO,0.95,-1,llm
+0x9b9e407d51ae6f81ffd71d40a972be8987f0d43601cb178253ad0ce4837ffb17,Israel x Hezbollah Ceasefire in September?,CVX,0.85,-1,llm
+0x9b9e407d51ae6f81ffd71d40a972be8987f0d43601cb178253ad0ce4837ffb17,Israel x Hezbollah Ceasefire in September?,USO,0.95,-1,llm
+0x0916a8da49aeeecca946d33ce561f1f1f432720d7d2b4b02bd5dbb54da24ea74,Israel x Iran ceasefire by Friday? ,BNO,0.9,-1,llm
+0x0916a8da49aeeecca946d33ce561f1f1f432720d7d2b4b02bd5dbb54da24ea74,Israel x Iran ceasefire by Friday? ,USO,0.9,-1,llm
+1706421,"Military action against Iran continues through April 30, 2026?",USO,0.7200000000000001,1,llm
+1551490,"Military action against Iran continues through March 31, 2026?",USO,0.5599999999999999,1,llm
+1706351,"Military action against Iran ends by April 10, 2026?",USO,0.675,-1,llm
+1706351,"Military action against Iran ends by April 10, 2026?",XLE,0.5249999999999999,-1,llm
+1706352,"Military action against Iran ends by April 11, 2026?",USO,0.675,-1,llm
+1706352,"Military action against Iran ends by April 11, 2026?",XLE,0.5249999999999999,-1,llm
+1706353,"Military action against Iran ends by April 12, 2026?",USO,0.675,-1,llm
+1706353,"Military action against Iran ends by April 12, 2026?",XLE,0.5249999999999999,-1,llm
+1706354,"Military action against Iran ends by April 13, 2026?",USO,0.675,-1,llm
+1706354,"Military action against Iran ends by April 13, 2026?",XLE,0.5249999999999999,-1,llm
+1706355,"Military action against Iran ends by April 14, 2026?",USO,0.675,-1,llm
+1706355,"Military action against Iran ends by April 14, 2026?",XLE,0.5249999999999999,-1,llm
+1706356,"Military action against Iran ends by April 15, 2026?",USO,0.675,-1,llm
+1706356,"Military action against Iran ends by April 15, 2026?",XLE,0.5249999999999999,-1,llm
+1706357,"Military action against Iran ends by April 16, 2026?",USO,0.675,-1,llm
+1706357,"Military action against Iran ends by April 16, 2026?",XLE,0.5249999999999999,-1,llm
+1706358,"Military action against Iran ends by April 17, 2026?",USO,0.675,-1,llm
+1706358,"Military action against Iran ends by April 17, 2026?",XLE,0.5249999999999999,-1,llm
+1706359,"Military action against Iran ends by April 18, 2026?",USO,0.675,-1,llm
+1706359,"Military action against Iran ends by April 18, 2026?",XLE,0.5249999999999999,-1,llm
+1706360,"Military action against Iran ends by April 19, 2026?",USO,0.54,-1,llm
+1706361,"Military action against Iran ends by April 20, 2026?",USO,0.675,-1,llm
+1706361,"Military action against Iran ends by April 20, 2026?",XLE,0.5249999999999999,-1,llm
+1706362,"Military action against Iran ends by April 21, 2026?",USO,0.54,-1,llm
+1706363,"Military action against Iran ends by April 22, 2026?",USO,0.54,-1,llm
+1706364,"Military action against Iran ends by April 23, 2026?",USO,0.54,-1,llm
+1706365,"Military action against Iran ends by April 24, 2026?",USO,0.675,-1,llm
+1706365,"Military action against Iran ends by April 24, 2026?",XLE,0.5249999999999999,-1,llm
+1706366,"Military action against Iran ends by April 25, 2026?",USO,0.675,-1,llm
+1706366,"Military action against Iran ends by April 25, 2026?",XLE,0.5249999999999999,-1,llm
+1706367,"Military action against Iran ends by April 26, 2026?",USO,0.675,-1,llm
+1706367,"Military action against Iran ends by April 26, 2026?",XLE,0.5249999999999999,-1,llm
+1706368,"Military action against Iran ends by April 27, 2026?",USO,0.675,-1,llm
+1706368,"Military action against Iran ends by April 27, 2026?",XLE,0.5249999999999999,-1,llm
+1706369,"Military action against Iran ends by April 28, 2026?",USO,0.675,-1,llm
+1706369,"Military action against Iran ends by April 28, 2026?",XLE,0.5249999999999999,-1,llm
+1706370,"Military action against Iran ends by April 29, 2026?",USO,0.675,-1,llm
+1706370,"Military action against Iran ends by April 29, 2026?",XLE,0.5249999999999999,-1,llm
+1706371,"Military action against Iran ends by April 30, 2026?",USO,0.675,-1,llm
+1706371,"Military action against Iran ends by April 30, 2026?",XLE,0.5249999999999999,-1,llm
+1706350,"Military action against Iran ends by April 9, 2026?",USO,0.675,-1,llm
+1706350,"Military action against Iran ends by April 9, 2026?",XLE,0.5249999999999999,-1,llm
+1706399,"Military action against Iran ends on April 9, 2026?",USO,0.675,0,llm
+1706399,"Military action against Iran ends on April 9, 2026?",XLE,0.5249999999999999,0,llm
+509713,No Israel strike Iran by Sunday Oct 20?,USO,0.6,-1,llm
+509050,No Israel strike on Iran by Sunday?,USO,0.6,-1,llm
+0x3cf3a4f2bb9b4eaef58467da7217275e14da10bfeb8ce965cef15cf1a7e3eaf2,QatarEnergy resumes LNG production by March 14?,UNG,0.95,-1,llm
+0x6ef8ef55a05e303a09b6fa1f2c00d18d4c98eb3d829b44db82a03be665ab901c,Russia x Ukraine Ceasefire by Friday? ,UNG,1.0,-1,llm
+0x6ef8ef55a05e303a09b6fa1f2c00d18d4c98eb3d829b44db82a03be665ab901c,Russia x Ukraine Ceasefire by Friday? ,USO,1.0,-1,llm
+0x6ef8ef55a05e303a09b6fa1f2c00d18d4c98eb3d829b44db82a03be665ab901c,Russia x Ukraine Ceasefire by Friday? ,WEAT,1.0,-1,llm
+552117,Strike on Israel's Dimonah nuclear base in June?,USO,0.63,1,llm
+552117,Strike on Israel's Dimonah nuclear base in June?,XLE,0.5599999999999999,1,llm
+0x01ffd0acf0d6e42558a7cbd521efde937166a1bf09f3a2dfcdf36950c2dd3635,US escorts commercial ship through Hormuz by April 30?,BNO,1.0,-1,llm
+0x01ffd0acf0d6e42558a7cbd521efde937166a1bf09f3a2dfcdf36950c2dd3635,US escorts commercial ship through Hormuz by April 30?,USO,1.0,-1,llm
+551650,US military action against Iran before August?,USO,0.7200000000000001,1,llm
+551650,US military action against Iran before August?,XLE,0.6400000000000001,1,llm
+0x0141bc972b2f4a4591e471742426c99da055fa513f41de9dfdc449fdfc60747f,US x Iran ceasefire before July? ,BNO,0.95,-1,llm
+0x0141bc972b2f4a4591e471742426c99da055fa513f41de9dfdc449fdfc60747f,US x Iran ceasefire before July? ,USO,0.95,-1,llm
+0xb75c07f4252992808d7ca7d9828169c524b0fef44bf5adf78c327ef88469c986,"US x Iran diplomatic meeting by May 5, 2026?",USO,0.7,-1,llm
+0xdc6f95f94d2db24a1904537cb8cf83e0b25fa47bac926112891eef0df8fd06f2,"US x Iran meeting by April 10, 2026?",USO,0.75,-1,llm
+627752,Will 3M (MMM) beat quarterly earnings?,MMM,1.0,1,llm
+675008,Will AECOM (ACM) beat quarterly earnings?,ACM,0.95,1,llm
+1390924,Will AMC Entertainment (AMC) beat quarterly earnings?,AMC,1.0,1,llm
+0xe829e2075915ca2f9b82ac3f915e36be8beba43b8aad7ba43a2f0e63a0fd21c6,Will AMC Entertainment Holdings (AMC) beat quarterly earnings?,AMC,1.0,1,llm
+1921503,Will AT&T (T) beat quarterly earnings?,T,0.95,1,llm
+619857,Will AZZ (AZZ) beat quarterly earnings?,AZZ,0.95,1,llm
+614644,Will Abbott Laboratories (ABT) beat quarterly earnings?,ABT,0.95,1,llm
+675619,Will Abercrombie & Fitch (ANF) beat quarterly earnings?,ANF,1.0,1,llm
+0x58390a7224be2da6cdb77f84a9c48e6ca0e483b73c29bb7f1299f5fe141dc7ee,Will Academy Sports (ASO) beat quarterly earnings?,ASO,0.874,1,llm
+1494785,Will Academy Sports and Outdoors (ASO) beat quarterly earnings?,ASO,1.0,1,llm
+598110,Will Accenture (ACN) beat its quarterly EPS estimate?,ACN,1.0,1,llm
+703120,Will Accenture (ACN) beat quarterly earnings?,ACN,1.0,1,llm
+701961,Will Adobe (ADBE) beat quarterly earnings?,ADBE,1.0,1,llm
+657445,Will Advanced Micro Devices (AMD) beat quarterly earnings?,AMD,1.0,1,llm
+1237793,Will Aflac (AFL) beat quarterly earnings?,AFL,0.95,1,llm
+1293448,Will Airbnb (ABNB) beat quarterly earnings?,ABNB,1.0,1,llm
+657073,Will Akamai Technologies (AKAM) beat quarterly earnings?,AKAM,1.0,1,llm
+1562685,Will Alibaba (BABA) beat quarterly earnings?,BABA,0.9,1,llm
+658526,Will Allbirds (BIRD) beat quarterly earnings?,BIRD,1.0,1,llm
+637864,Will AllianceBernstein (AB) beat quarterly earnings?,AB,1.0,1,llm
+647504,Will Allstate (ALL) beat quarterly earnings?,ALL,0.95,1,llm
+1126201,Will Ally Financial (ALLY) beat quarterly earnings?,ALLY,0.95,1,llm
+642130,Will Alphabet (GOOGL) beat quarterly earnings?,GOOGL,1.0,1,llm
+1254014,Will Amazon (AMZN) beat quarterly earnings?,AMZN,1.0,1,llm
+642131,Will Amazon.com (AMZN) beat quarterly earnings?,AMZN,1.0,1,llm
+675024,Will Amer Sports (AS) beat quarterly earnings?,AS,0.95,1,llm
+1139368,Will American Airlines (AAL) beat quarterly earnings?,AAL,0.97,1,llm
+627739,Will American Airlines Group (AAL) beat quarterly earnings?,AAL,1.0,1,llm
+696258,Will American Eagle Outfitters (AEO) beat quarterly earnings?,AEO,1.0,1,llm
+627451,Will American Express (AXP) beat quarterly earnings?,AXP,0.99,1,llm
+627672,Will Ameriprise Financial (AMP) beat quarterly earnings?,AMP,1.0,1,llm
+656791,Will Amplitude (AMPL) beat quarterly earnings?,AMPL,1.0,1,llm
+675613,Will Analog Devices (ADI) beat quarterly earnings?,ADI,0.98,1,llm
+0x421069b619525ca184364b645f4a23056c9f654f6bdba2b717f01845c32db949,Will Analog Devices' Q2 Industrial revenue be above $1.7B?,ADI,1.0,1,llm
+647852,Will Anheuser-Busch (BUD) beat quarterly earnings?,BUD,1.0,1,llm
+656760,Will Apollo Global Management (APO) beat quarterly earnings?,APO,1.0,1,llm
+655266,Will AppLovin (APP) beat quarterly earnings?,APP,0.95,1,llm
+647853,Will Apple (AAPL) beat quarterly earnings?,AAPL,1.0,1,llm
+619984,Will Applied Digital (APLD) beat quarterly earnings?,APLD,0.95,1,llm
+668506,Will Applied Materials (AMAT) beat quarterly earnings?,AMAT,1.0,1,llm
+1293499,Will Applied Materials Inc (AMAT) beat quarterly earnings?,AMAT,1.0,1,llm
+0x20e823074bd95386237d3324e642116ea2c1d8ac714d11ef6ab7b5c3d1ebe134,Will Applied Materials' Semiconductor Systems revenue be above $5.7B in Q2?,AMAT,1.0,1,llm
+1321482,Will Applovin (APP) beat quarterly earnings?,APP,1.0,1,llm
+2048142,Will Aptiv (APTV) beat quarterly earnings?,APTV,0.95,1,llm
+1986794,Will Ares Capital (ARCC) beat quarterly earnings?,ARCC,0.95,1,llm
+652512,Will Ares Management (ARES) beat quarterly earnings?,ARES,1.0,1,llm
+655388,Will Arm Holdings (ARM) beat quarterly earnings?,ARM,0.95,1,llm
+696259,Will Asana (ASAN) beat quarterly earnings?,ASAN,1.0,1,llm
+655451,Will Atmos Energy (ATO) beat quarterly earnings?,ATO,0.95,1,llm
+2245219,Will AutoZone (AZO) beat quarterly earnings?,AZO,0.9,1,llm
+675615,Will Autodesk (ADSK) beat quarterly earnings?,ADSK,0.95,1,llm
+701950,Will Autozone (AZO) beat quarterly earnings?,AZO,0.95,1,llm
+642138,Will BGC Group (BGC) beat quarterly earnings?,BGC,1.0,1,llm
+2186414,Will BJ's Wholesale Club (BJ) beat quarterly earnings?,BJ,0.9,1,llm
+675612,Will BJ's Wholesale Club Holdings (BJ) beat quarterly earnings?,BJ,0.95,1,llm
+1279999,Will BP (BP) beat quarterly earnings?,BP,1.0,1,llm
+0x608f47dd05ad38c3b79cb669918fe018fa6cb915b8a43e5c7d2ef673cddda17b,Will Bain Capital Specialty Finance (BCSF) beat quarterly earnings?,BCSF,1.0,1,llm
+1118261,Will Bank First (BFC) beat quarterly earnings?,BFC,0.9,1,llm
+614613,Will Bank of America (BAC) beat quarterly earnings?,BAC,0.95,1,llm
+675540,Will Bath & Body Works (BBWI) beat quarterly earnings?,BBWI,0.95,1,llm
+642137,Will Bed Bath & Beyond (BBBY) beat quarterly earnings?,BBBY,1.0,1,llm
+675628,Will Best Buy (BBY) beat quarterly earnings?,BBY,1.0,1,llm
+655224,Will Beyond Meat (BYND) beat quarterly earnings?,BYND,0.95,1,llm
+1125598,Will BlackRock (BLK) beat quarterly earnings?,BLK,0.98,1,llm
+637865,Will Blackstone (BX) beat quarterly earnings?,BX,1.0,1,llm
+647505,Will Boeing (BA) beat quarterly earnings?,BA,0.98,1,llm
+642139,Will Booking Holdings (BKNG) beat quarterly earnings?,BKNG,1.0,1,llm
+2003521,Will Booking Holdings Inc (BKNG) beat quarterly earnings?,BKNG,0.95,1,llm
+627748,Will Boston Beer (SAM) beat quarterly earnings?,SAM,1.0,1,llm
+1399742,Will Box (BOX) beat quarterly earnings?,BOX,1.0,1,llm
+0xb9279c57ffac6ecbd09f946ba66d163f9040c6d8c3bf3d556b1b91fefda68e80,Will Braze (BRZE) beat quarterly earnings?,BRZE,0.874,1,llm
+1403495,Will Broadcom (AVGO) beat quarterly earnings?,AVGO,1.0,1,llm
+0xd541614fedf1fc0d9e6e6405dfe0b57d5e47bbb4411cda591ccfd8fcf580f874,Will Broadcom Inc. (AVGO) beat quarterly earnings?,AVGO,1.0,1,llm
+697476,Will Build-A-Bear Workshop (BBW) beat quarterly earnings?,BBW,1.0,1,llm
+599915,Will Bullish (BLSH) beat its quarterly EPS estimate?,BLSH,1.0,1,llm
+675626,Will Bullish (BLSH) beat quarterly earnings?,BLSH,1.0,1,llm
+674923,Will Burlington Stores (BURL) beat quarterly earnings?,BURL,0.95,1,llm
+2062051,Will BuzzFeed (BZFD) beat quarterly earnings?,BZFD,1.0,1,llm
+620038,Will Byrna Technologies (BYRN) beat quarterly earnings?,BYRN,0.95,1,llm
+637868,Will CBRE Group (CBRE) beat quarterly earnings?,CBRE,1.0,1,llm
+627694,Will CME Group (CME) beat quarterly earnings?,CME,1.0,1,llm
+657086,Will CRISPR Therapeutics (CRSP) beat quarterly earnings?,CRSP,1.0,1,llm
+647808,Will CVS Health (CVS) beat quarterly earnings?,CVS,1.0,1,llm
+2048147,Will Cabot (CBT) beat quarterly earnings?,CBT,1.0,1,llm
+1326547,Will Caesars Entertainment (CZR) beat quarterly earnings?,CZR,1.0,1,llm
+701985,Will Campbell's (CPB) beat quarterly earnings?,CPB,1.0,1,llm
+1139906,Will Capital One (COF) beat quarterly earnings?,COF,0.96,1,llm
+599654,Will CarMax (KMX) beat its quarterly EPS estimate?,KMX,1.0,1,llm
+703172,Will CarMax (KMX) beat quarterly earnings?,KMX,0.95,1,llm
+703176,Will Carnival (CCL) beat quarterly earnings?,CCL,0.95,1,llm
+0xafd5a0364fbb3a05d2876a43914e16aac732299d1c10c7e2d9546007bf973458,Will Carnival Corporation (CCL) beat quarterly earnings?,CCL,1.0,1,llm
+647508,Will Carvana (CVNA) beat quarterly earnings?,CVNA,0.95,1,llm
+701955,Will Casey's General Stores (CASY) beat quarterly earnings?,CASY,1.0,1,llm
+1421510,Will Caseys General Stores (CASY) beat quarterly earnings?,CASY,1.0,1,llm
+647509,Will Caterpillar (CAT) beat quarterly earnings?,CAT,0.98,1,llm
+648228,Will Cboe Global Markets (CBOE) beat quarterly earnings?,CBOE,1.0,1,llm
+0xf9296ef60ad45531e0df475b1261d37ffd15084d9d2b09af19379ce1f0fb1419,Will Celsius (CELH) beat quarterly earnings?,CELH,1.0,1,llm
+658589,Will Celsius Holdings (CELH) beat quarterly earnings?,CELH,1.0,1,llm
+652577,Will Charles River Laboratories (CRL) beat quarterly earnings?,CRL,1.0,1,llm
+1339587,Will Charles River Laboratories International (CRL) beat quarterly earnings?,CRL,1.0,1,llm
+1125627,Will Charles Schwab (SCHW) beat quarterly earnings?,SCHW,0.98,1,llm
+1321400,Will Chegg (CHGG) beat quarterly earnings?,CHGG,1.0,1,llm
+648240,Will Chevron (CVX) beat quarterly earnings?,CVX,1.0,1,llm
+701960,Will Chewy (CHWY) beat quarterly earnings?,CHWY,0.95,1,llm
+0xacc5ede78452fdcae7c190eb4ef408fbb10a94bf6c7b7d022a515cce7bf36ef0,Will Chime Financial (CHYM) beat quarterly earnings?,CHYM,1.0,1,llm
+647510,Will Chipotle Mexican Grill (CMG) beat quarterly earnings?,CMG,1.0,1,llm
+1230454,Will Chipotle Mexican Grill Inc (CMG) beat quarterly earnings?,CMG,1.0,1,llm
+627454,Will Chubb (CB) beat quarterly earnings?,CB,0.98,1,llm
+627695,Will Churchill Downs (CHDN) beat quarterly earnings?,CHDN,1.0,1,llm
+2003559,Will Cigna (CI) beat quarterly earnings?,CI,0.98,1,llm
+1270843,Will Cigna Group (CI) beat quarterly earnings?,CI,1.0,1,llm
+703173,Will Cintas (CTAS) beat quarterly earnings?,CTAS,1.0,1,llm
+2110078,Will Circle Internet (CRCL) beat quarterly earnings?,CRCL,1.0,1,llm
+668460,Will Circle Internet Group (CRCL) beat quarterly earnings?,CRCL,0.95,1,llm
+668496,Will Cisco Systems (CSCO) beat quarterly earnings?,CSCO,1.0,1,llm
+0x79c36317c7942decb24652217bbae0f292d9bb830196b5a1db01a55690b26ecb,Will Cisco's Networking revenue be above $7.5B in Q3?,CSCO,1.0,1,llm
+613057,Will Citigroup (C) beat quarterly earnings?,C,0.95,1,llm
+1126021,Will Citizens Financial Group (CFG) beat quarterly earnings?,CFG,0.95,1,llm
+1892079,Will Citizens Financial Group Inc (CFG) beat quarterly earnings?,CFG,0.9,1,llm
+647860,Will Clorox (CLX) beat quarterly earnings?,CLX,1.0,1,llm
+1280187,Will Cloudflare (NET) beat quarterly earnings?,NET,1.0,1,llm
+643016,Will CoStar Group (CSGP) beat quarterly earnings?,CSGP,0.9,1,llm
+627582,Will Coca-Cola (KO) beat quarterly earnings?,KO,0.99,1,llm
+2062038,Will Coinbase (COIN) beat quarterly earnings?,COIN,1.0,1,llm
+647869,Will Coinbase Global (COIN) beat quarterly earnings?,COIN,1.0,1,llm
+648376,Will Colgate-Palmolive (CL) beat quarterly earnings?,CL,1.0,1,llm
+899881,Will Conagra Brands (CAG) beat quarterly earnings?,CAG,0.95,1,llm
+599653,Will Concentrix (CNXC) beat its quarterly EPS estimate?,CNXC,1.0,1,llm
+656855,Will ConocoPhillips (COP) beat quarterly earnings?,COP,1.0,1,llm
+657004,Will Consolidated Edison (ED) beat quarterly earnings?,ED,1.0,1,llm
+614636,Will Constellation Brands (STZ) beat quarterly earnings?,STZ,0.95,1,llm
+2048131,Will Costar Group (CSGP) beat quarterly earnings?,CSGP,1.0,1,llm
+1403853,Will Costco (COST) beat quarterly earnings?,COST,1.0,1,llm
+0xc9b85c84fead0fad6160b3a001b4c3d80d0a8c3cfa7583570ef7a643269cade2,Will Costco Wholesale (COST) beat quarterly earnings?,COST,1.0,1,llm
+637869,Will Coursera (COUR) beat quarterly earnings?,COUR,1.0,1,llm
+1428532,Will Cracker Barrel (CBRL) beat quarterly earnings?,CBRL,1.0,1,llm
+697471,Will Cracker Barrel Old Country Store (CBRL) beat quarterly earnings?,CBRL,1.0,1,llm
+696252,Will CrowdStrike Holdings (CRWD) beat quarterly earnings?,CRWD,1.0,1,llm
+675627,Will DICK'S Sporting Goods (DKS) beat quarterly earnings?,DKS,1.0,1,llm
+656996,Will Datadog (DDOG) beat quarterly earnings?,DDOG,1.0,1,llm
+1280188,Will Datadog Inc (DDOG) beat quarterly earnings?,DDOG,1.0,1,llm
+668522,Will DeFi Technologies (DEFT) beat quarterly earnings?,DEFT,0.95,1,llm
+0x77999786f2859bd7ee8960b3ce5ee22c2445ef7e8e158893a69aee91ef80f07b,Will Deckers Q4 HOKA revenue be above $660M?,DECK,1.0,1,llm
+2186409,Will Deere & Co (DE) beat quarterly earnings?,DE,0.9,1,llm
+675621,Will Deere (DE) beat quarterly earnings?,DE,1.0,1,llm
+0x997720adeebdaedec12ed6ee626452c124118914669fccc0b53aac3042b83a65,Will Deere Q2 revenue be above $11.0B?,DE,1.0,1,llm
+675614,Will Dell Technologies (DELL) beat quarterly earnings?,DELL,0.98,1,llm
+613051,Will Delta Air Lines (DAL) beat quarterly earnings?,DAL,1.0,1,llm
+701986,Will Designer Brands (DBI) beat quarterly earnings?,DBI,0.95,1,llm
+1545608,Will Designer Brands Inc (DBI) beat quarterly earnings?,DBI,1.0,1,llm
+0x75df5fe8454fe223d3a9f3923095c10b9bbf9b4005dffbcbc3ed640d4f79fe8a,Will Dick's Sporting Goods (DKS) beat quarterly earnings?,DKS,0.874,1,llm
+2062024,Will Disney (DIS) beat quarterly earnings?,DIS,1.0,1,llm
+697470,Will DocuSign (DOCU) beat quarterly earnings?,DOCU,1.0,1,llm
+2335601,Will Docusign (DOCU) beat quarterly earnings?,DOCU,1.0,1,llm
+675495,Will Dolby Laboratories (DLB) beat quarterly earnings?,DLB,0.95,1,llm
+697463,Will Dollar General (DG) beat quarterly earnings?,DG,1.0,1,llm
+697448,Will Dollar Tree (DLTR) beat quarterly earnings?,DLTR,1.0,1,llm
+1360921,Will Domino's Pizza (DPZ) beat quarterly earnings?,DPZ,0.95,1,llm
+613066,Will Domino’s Pizza (DPZ) beat quarterly earnings?,DPZ,0.95,1,llm
+655439,Will DoorDash (DASH) beat quarterly earnings?,DASH,0.95,1,llm
+637870,Will Dow (DOW) beat quarterly earnings?,DOW,1.0,1,llm
+657027,Will DraftKings (DKNG) beat quarterly earnings?,DKNG,1.0,1,llm
+2062054,Will Draftkings (DKNG) beat quarterly earnings?,DKNG,1.0,1,llm
+1293498,Will Draftkings Inc (DKNG) beat quarterly earnings?,DKNG,1.0,1,llm
+657080,Will Dropbox (DBX) beat quarterly earnings?,DBX,1.0,1,llm
+657005,Will DuPont de Nemours (DD) beat quarterly earnings?,DD,1.0,1,llm
+2062007,Will Dupont (DD) beat quarterly earnings?,DD,1.0,1,llm
+1321402,Will Dupont De Nemours (DD) beat quarterly earnings?,DD,1.0,1,llm
+675509,Will Dycom Industries (DY) beat quarterly earnings?,DY,0.95,1,llm
+1352086,Will ETSY (ETSY) beat quarterly earnings?,ETSY,1.0,1,llm
+627585,Will East West Bancorp (EWBC) beat quarterly earnings?,EWBC,1.0,1,llm
+643017,Will Electronic Arts (EA) beat quarterly earnings?,EA,0.95,1,llm
+2003555,Will Eli Lilly and Co (LLY) beat quarterly earnings?,LLY,0.95,1,llm
+647871,Will Eli Lilly and Company (LLY) beat quarterly earnings?,LLY,1.0,1,llm
+1986792,Will Equifax (EFX) beat quarterly earnings?,EFX,0.95,1,llm
+1254013,Will Equifax Inc (EFX) beat quarterly earnings?,EFX,0.9,1,llm
+619560,Will Equifax Inc. (EFX) beat quarterly earnings?,EFX,0.98,1,llm
+0xfa329502c8b388213ea57089a8081fddecd7b33b715a2734b0c66883cf8ee021,Will Estee Lauder (EL) beat quarterly earnings?,EL,1.0,1,llm
+2039914,Will Estee Lauder Companies (EL) beat quarterly earnings?,EL,0.95,1,llm
+647888,Will Estée Lauder Companies (EL) beat quarterly earnings?,EL,1.0,1,llm
+647815,Will Etsy (ETSY) beat quarterly earnings?,ETSY,1.0,1,llm
+627698,Will Evercore (EVR) beat quarterly earnings?,EVR,1.0,1,llm
+2062056,Will Expedia (EXPE) beat quarterly earnings?,EXPE,1.0,1,llm
+657007,Will Expedia Group (EXPE) beat quarterly earnings?,EXPE,1.0,1,llm
+613046,Will Exxon Mobil (XOM) beat quarterly earnings?,XOM,1.0,1,llm
+652823,Will FS KKR Capital (FSK) beat quarterly earnings?,FSK,1.0,1,llm
+637874,Will FTI Consulting (FCN) beat quarterly earnings?,FCN,1.0,1,llm
+703171,Will FactSet Research Systems (FDS) beat quarterly earnings?,FDS,0.95,1,llm
+598105,Will Factset Research (FDS) beat its quarterly EPS estimate?,FDS,0.9,1,llm
+1651875,Will Factset Research Systems (FDS) beat quarterly earnings?,FDS,1.0,1,llm
+620048,Will Fastenal (FAST) beat quarterly earnings?,FAST,0.98,1,llm
+703122,Will FedEx (FDX) beat quarterly earnings?,FDX,1.0,1,llm
+598106,Will Fedex (FDX) beat its quarterly EPS estimate?,FDX,1.0,1,llm
+1352087,Will Fidelity National Financial (FNF) beat quarterly earnings?,FNF,0.95,1,llm
+655449,Will Fidelity National Information Services (FIS) beat quarterly earnings?,FIS,0.95,1,llm
+700377,Will Five Below (FIVE) beat quarterly earnings?,FIVE,1.0,1,llm
+668459,Will Flutter Entertainment (FLUT) beat quarterly earnings?,FLUT,0.95,1,llm
+637871,Will Ford Motor (F) beat quarterly earnings?,F,1.0,1,llm
+648377,Will Fox (FOXA) beat quarterly earnings?,FOXA,1.0,1,llm
+1230455,Will Fox Corp (FOXA) beat quarterly earnings?,FOXA,1.0,1,llm
+658619,Will Franklin Resources (BEN) beat quarterly earnings?,BEN,1.0,1,llm
+652657,Will Frontdoor (FTDR) beat quarterly earnings?,FTDR,0.95,1,llm
+2277325,Will Frontline (FRO) beat quarterly earnings?,FRO,1.0,1,llm
+2168996,Will Gambling.com (GAMB) beat quarterly earnings?,GAMB,0.9,1,llm
+668512,Will Gambling.com Group (GAMB) beat quarterly earnings?,GAMB,0.95,1,llm
+701993,Will GameStop (GME) beat quarterly earnings?,GME,1.0,1,llm
+647816,Will Garmin (GRMN) beat quarterly earnings?,GRMN,1.0,1,llm
+1921506,Will General Dynamics (GD) beat quarterly earnings?,GD,0.95,1,llm
+598104,Will General Mills (GIS) beat its quarterly EPS estimate?,GIS,1.0,1,llm
+703111,Will General Mills (GIS) beat quarterly earnings?,GIS,1.0,1,llm
+627587,Will General Motors (GM) beat quarterly earnings?,GM,0.99,1,llm
+0xe805db732f2fec401eb183cbedc62ddaa82862292c913d7ce38cbadd1cac9787,Will Getty Images (GETY) beat quarterly earnings?,GETY,1.0,1,llm
+1454725,Will Getty Images Holdings (GETY) beat quarterly earnings?,GETY,1.0,1,llm
+1399738,Will GitLab (GTLB) beat quarterly earnings?,GTLB,1.0,1,llm
+620069,Will Glacier Bancorp (GBCI) beat quarterly earnings?,GBCI,0.95,1,llm
+658499,Will GoPro (GPRO) beat quarterly earnings?,GPRO,1.0,1,llm
+613056,Will Goldman Sachs (GS) beat quarterly earnings?,GS,1.0,1,llm
+2062012,Will Goodyear (GT) beat quarterly earnings?,GT,1.0,1,llm
+1321486,Will Goodyear Tire & Rubber (GT) beat quarterly earnings?,GT,1.0,1,llm
+652566,Will Grab Holdings (GRAB) beat quarterly earnings?,GRAB,1.0,1,llm
+1421689,Will Groupon (GRPN) beat quarterly earnings?,GRPN,1.0,1,llm
+675617,Will HP (HPQ) beat quarterly earnings?,HPQ,1.0,1,llm
+1126184,Will Halliburton (HAL) beat quarterly earnings?,HAL,0.97,1,llm
+637875,Will Harley-Davidson (HOG) beat quarterly earnings?,HOG,1.0,1,llm
+637876,Will Hasbro (HAS) beat quarterly earnings?,HAS,1.0,1,llm
+2062057,Will Hertz (HTZ) beat quarterly earnings?,HTZ,1.0,1,llm
+0xa6b53f1a28a91d4c7c90b31e144f376f01854b9825bb078f5a10fb8db0223a14,Will Hertz Global Holdings (HTZ) beat quarterly earnings?,HTZ,1.0,1,llm
+652568,Will Hess Midstream (HESM) beat quarterly earnings?,HESM,1.0,1,llm
+697462,Will Hewlett Packard Enterprise (HPE) beat quarterly earnings?,HPE,1.0,1,llm
+2048132,Will Hilton (HLT) beat quarterly earnings?,HLT,1.0,1,llm
+647968,Will Hilton Grand Vacations (HGV) beat quarterly earnings?,HGV,1.0,1,llm
+1288098,Will Hilton Worldwide (HLT) beat quarterly earnings?,HLT,1.0,1,llm
+627735,Will Hilton Worldwide Holdings (HLT) beat quarterly earnings?,HLT,1.0,1,llm
+652567,Will Hims & Hers Health (HIMS) beat quarterly earnings?,HIMS,1.0,1,llm
+0x2a60f1993776edcaf5479689e51c66148f8e47794f4b60f3244deb8384ff8f66,Will Hinge Health (HNGE) beat quarterly earnings?,HNGE,1.0,1,llm
+674912,Will Home Depot (HD) beat quarterly earnings?,HD,1.0,1,llm
+637877,Will Honeywell International (HON) beat quarterly earnings?,HON,1.0,1,llm
+1339772,Will Howard Hughes Holdings (HHH) beat quarterly earnings?,HHH,1.0,1,llm
+655460,Will HubSpot (HUBS) beat quarterly earnings?,HUBS,0.95,1,llm
+655450,Will Humana (HUM) beat quarterly earnings?,HUM,0.95,1,llm
+657072,Will Hyatt Hotels (H) beat quarterly earnings?,H,1.0,1,llm
+657295,Will ICU Medical (ICUI) beat quarterly earnings?,ICUI,1.0,1,llm
+1363711,Will IMAX (IMAX) beat quarterly earnings?,IMAX,0.95,1,llm
+1369348,Will IONQ (IONQ) beat quarterly earnings?,IONQ,1.0,1,llm
+1369095,Will Icahn Enterprises (IEP) beat quarterly earnings?,IEP,1.0,1,llm
+1937062,Will Infosys (INFY) beat quarterly earnings?,INFY,1.0,1,llm
+643018,Will Integra LifeSciences Holdings (IART) beat quarterly earnings?,IART,0.9,1,llm
+2048139,Will Integra Lifesciences (IART) beat quarterly earnings?,IART,1.0,1,llm
+1369192,Will Integra Lifesciences Holdings (IART) beat quarterly earnings?,IART,1.0,1,llm
+637878,Will Intel (INTC) beat quarterly earnings?,INTC,1.0,1,llm
+1118155,Will Interactive Brokers (IBKR) beat quarterly earnings?,IBKR,1.0,1,llm
+614609,Will Interactive Brokers Group (IBKR) beat quarterly earnings?,IBKR,0.95,1,llm
+647937,Will Intercontinental Exchange (ICE) beat quarterly earnings?,ICE,1.0,1,llm
+627736,Will International Business Machines (IBM) beat quarterly earnings?,IBM,1.0,1,llm
+675513,Will Intuit (INTU) beat quarterly earnings?,INTU,0.98,1,llm
+0xb36a6431b3120c510183137a78be93dbcad1bf39f6f2c0a6377a6b65285ce224,Will Intuit Q3 Online Ecosystem revenue be above $2.45B?,INTU,1.0,1,llm
+643019,Will Invesco (IVZ) beat quarterly earnings?,IVZ,0.9,1,llm
+1705455,"Will Iran conduct a military action against Israel on April 1, 2026?",USO,0.52,1,llm
+1705456,"Will Iran conduct a military action against Israel on April 2, 2026?",USO,0.52,1,llm
+1705457,"Will Iran conduct a military action against Israel on April 3, 2026?",USO,0.52,1,llm
+1628471,"Will Iran conduct a military action against Israel on March 18, 2026?",USO,0.6000000000000001,1,llm
+1628472,"Will Iran conduct a military action against Israel on March 19, 2026?",USO,0.6000000000000001,1,llm
+1628473,"Will Iran conduct a military action against Israel on March 20, 2026?",USO,0.6000000000000001,1,llm
+1628474,"Will Iran conduct a military action against Israel on March 21, 2026?",USO,0.6000000000000001,1,llm
+1628475,"Will Iran conduct a military action against Israel on March 22, 2026?",USO,0.6000000000000001,1,llm
+1628476,"Will Iran conduct a military action against Israel on March 23, 2026?",USO,0.6000000000000001,1,llm
+1628477,"Will Iran conduct a military action against Israel on March 24, 2026?",USO,0.6000000000000001,1,llm
+1628478,"Will Iran conduct a military action against Israel on March 25, 2026?",USO,0.6000000000000001,1,llm
+1628482,"Will Iran conduct a military action against Israel on March 29, 2026?",USO,0.52,1,llm
+1628483,"Will Iran conduct a military action against Israel on March 30, 2026?",USO,0.52,1,llm
+1628484,"Will Iran conduct a military action against Israel on March 31, 2026?",USO,0.52,1,llm
+1910397,"Will Iran strike Bahrain by April 30, 2026?",USO,0.5850000000000001,1,llm
+1466419,Will Iran strike Bahrain in March?,USO,0.675,1,llm
+1466419,Will Iran strike Bahrain in March?,XLE,0.6000000000000001,1,llm
+1693001,Will Iran strike East–West Crude Oil Pipeline by April 30?,USO,0.675,1,llm
+1466426,Will Iran strike Iraq in March?,USO,0.54,1,llm
+1706290,"Will Iran strike Israel by April 30, 2026?",USO,0.5599999999999999,1,llm
+1466416,Will Iran strike Israel in March?,USO,0.675,1,llm
+1466416,Will Iran strike Israel in March?,XLE,0.6000000000000001,1,llm
+1706295,"Will Iran strike Kuwait by April 30, 2026?",BNO,0.5599999999999999,1,llm
+1706295,"Will Iran strike Kuwait by April 30, 2026?",USO,0.5599999999999999,1,llm
+1466421,Will Iran strike Kuwait in March?,USO,0.63,1,llm
+1692996,Will Iran strike Mina Al-Ahmadi Refinery by April 30?,USO,0.7200000000000001,1,llm
+1692996,Will Iran strike Mina Al-Ahmadi Refinery by April 30?,XLE,0.6400000000000001,1,llm
+1466430,Will Iran strike Oman in March?,USO,0.63,1,llm
+1466425,Will Iran strike Qatar in March?,USO,0.675,1,llm
+1466425,Will Iran strike Qatar in March?,XLE,0.6000000000000001,1,llm
+1706292,"Will Iran strike Saudi Arabia by April 30, 2026?",BNO,0.7200000000000001,1,llm
+1706292,"Will Iran strike Saudi Arabia by April 30, 2026?",USO,0.7200000000000001,1,llm
+1706292,"Will Iran strike Saudi Arabia by April 30, 2026?",XLE,0.6400000000000001,1,llm
+1466418,Will Iran strike Saudi Arabia in March?,USO,0.7200000000000001,1,llm
+1466418,Will Iran strike Saudi Arabia in March?,XLE,0.6400000000000001,1,llm
+1706294,"Will Iran strike UAE by April 30, 2026?",USO,0.675,1,llm
+1466420,Will Iran strike UAE in March?,USO,0.7200000000000001,1,llm
+1466420,Will Iran strike UAE in March?,XLE,0.6400000000000001,1,llm
+554676,Will Iran strike a U.S. facility by Friday June  27?,USO,0.675,1,llm
+554676,Will Iran strike a U.S. facility by Friday June  27?,XLE,0.6000000000000001,1,llm
+554675,Will Iran strike a U.S. facility by Monday June  23?,USO,0.675,1,llm
+554675,Will Iran strike a U.S. facility by Monday June  23?,XLE,0.6000000000000001,1,llm
+554677,Will Iran strike a U.S. facility by Monday June  30?,USO,0.675,1,llm
+554677,Will Iran strike a U.S. facility by Monday June  30?,XLE,0.6000000000000001,1,llm
+1468061,Will Iran strike gulf oil facilities by March 31?,USO,0.76,1,llm
+1705683,"Will Iran take military action against a Gulf State on April 1, 2026?",USO,0.54,1,llm
+1705692,"Will Iran take military action against a Gulf State on April 10, 2026?",USO,0.675,1,llm
+1705692,"Will Iran take military action against a Gulf State on April 10, 2026?",XLE,0.6000000000000001,1,llm
+1705684,"Will Iran take military action against a Gulf State on April 2, 2026?",USO,0.7200000000000001,1,llm
+1705685,"Will Iran take military action against a Gulf State on April 3, 2026?",BNO,0.675,1,llm
+1705685,"Will Iran take military action against a Gulf State on April 3, 2026?",USO,0.675,1,llm
+1705685,"Will Iran take military action against a Gulf State on April 3, 2026?",XLE,0.6000000000000001,1,llm
+1705686,"Will Iran take military action against a Gulf State on April 4, 2026?",BNO,0.675,1,llm
+1705686,"Will Iran take military action against a Gulf State on April 4, 2026?",USO,0.675,1,llm
+1705686,"Will Iran take military action against a Gulf State on April 4, 2026?",XLE,0.6000000000000001,1,llm
+1705687,"Will Iran take military action against a Gulf State on April 5, 2026?",USO,0.7200000000000001,1,llm
+1705688,"Will Iran take military action against a Gulf State on April 6, 2026?",USO,0.7200000000000001,1,llm
+1705689,"Will Iran take military action against a Gulf State on April 7, 2026?",USO,0.54,1,llm
+1705690,"Will Iran take military action against a Gulf State on April 8, 2026?",BNO,0.675,1,llm
+1705690,"Will Iran take military action against a Gulf State on April 8, 2026?",USO,0.675,1,llm
+1705690,"Will Iran take military action against a Gulf State on April 8, 2026?",XLE,0.6000000000000001,1,llm
+1705691,"Will Iran take military action against a Gulf State on April 9, 2026?",BNO,0.675,1,llm
+1705691,"Will Iran take military action against a Gulf State on April 9, 2026?",USO,0.675,1,llm
+1705691,"Will Iran take military action against a Gulf State on April 9, 2026?",XLE,0.6000000000000001,1,llm
+1633624,"Will Iran take military action against a Gulf State on March 18, 2026?",USO,0.675,1,llm
+1633624,"Will Iran take military action against a Gulf State on March 18, 2026?",XLE,0.6000000000000001,1,llm
+1633625,"Will Iran take military action against a Gulf State on March 19, 2026?",USO,0.54,1,llm
+1633626,"Will Iran take military action against a Gulf State on March 20, 2026?",USO,0.54,1,llm
+1633627,"Will Iran take military action against a Gulf State on March 21, 2026?",USO,0.54,1,llm
+1633628,"Will Iran take military action against a Gulf State on March 22, 2026?",USO,0.54,1,llm
+1633629,"Will Iran take military action against a Gulf State on March 23, 2026?",USO,0.54,1,llm
+1633630,"Will Iran take military action against a Gulf State on March 24, 2026?",USO,0.7200000000000001,1,llm
+1633630,"Will Iran take military action against a Gulf State on March 24, 2026?",XLE,0.6400000000000001,1,llm
+1633631,"Will Iran take military action against a Gulf State on March 25, 2026?",USO,0.7200000000000001,1,llm
+1633631,"Will Iran take military action against a Gulf State on March 25, 2026?",XLE,0.6400000000000001,1,llm
+1633632,"Will Iran take military action against a Gulf State on March 26, 2026?",USO,0.7200000000000001,1,llm
+1633632,"Will Iran take military action against a Gulf State on March 26, 2026?",XLE,0.6400000000000001,1,llm
+1633633,"Will Iran take military action against a Gulf State on March 27, 2026?",USO,0.7200000000000001,1,llm
+1633633,"Will Iran take military action against a Gulf State on March 27, 2026?",XLE,0.6400000000000001,1,llm
+1633634,"Will Iran take military action against a Gulf State on March 28, 2026?",USO,0.7200000000000001,1,llm
+1633634,"Will Iran take military action against a Gulf State on March 28, 2026?",XLE,0.6400000000000001,1,llm
+1633635,"Will Iran take military action against a Gulf State on March 29, 2026?",USO,0.7200000000000001,1,llm
+1633635,"Will Iran take military action against a Gulf State on March 29, 2026?",XLE,0.6400000000000001,1,llm
+1633636,"Will Iran take military action against a Gulf State on March 30, 2026?",USO,0.7200000000000001,1,llm
+1633636,"Will Iran take military action against a Gulf State on March 30, 2026?",XLE,0.6400000000000001,1,llm
+1633637,"Will Iran take military action against a Gulf State on March 31, 2026?",USO,0.7200000000000001,1,llm
+1633637,"Will Iran take military action against a Gulf State on March 31, 2026?",XLE,0.6400000000000001,1,llm
+0x4f791f331439b6f8db69eb6cb28f1251c5a2f89a954ce0c02572786f0977a94d,Will Iranian officials visit the White House in June?,CVX,0.9,-1,llm
+0x4f791f331439b6f8db69eb6cb28f1251c5a2f89a954ce0c02572786f0977a94d,Will Iranian officials visit the White House in June?,USO,1.0,-1,llm
+0x4f791f331439b6f8db69eb6cb28f1251c5a2f89a954ce0c02572786f0977a94d,Will Iranian officials visit the White House in June?,XOM,0.9,-1,llm
+1147357,Will Israel or the US target Tehran?,USO,0.6400000000000001,1,llm
+0x281deec432471dcd8d20e5bba458e6875c87445f7e7a04886948e885d393191a,Will JM Smucker (SJM) beat quarterly earnings?,SJM,0.874,1,llm
+613052,Will JPMorgan Chase (JPM) beat quarterly earnings?,JPM,1.0,1,llm
+598111,Will Jabil (JBL) beat its quarterly EPS estimate?,JBL,0.9,1,llm
+0xa2b6311d774ff38d03219de5959ad70d1587cfc62bdbe7e566970122b127a0f0,Will Jefferies (JEF) beat quarterly earnings?,JEF,1.0,1,llm
+973541,Will Jefferies Financial Group (JEF) beat quarterly earnings?,JEF,1.0,1,llm
+2048133,Will JetBlue (JBLU) beat quarterly earnings?,JBLU,1.0,1,llm
+643022,Will JetBlue Airways (JBLU) beat quarterly earnings?,JBLU,0.95,1,llm
+1125915,Will Johnson & Johnson (JNJ) beat quarterly earnings?,JNJ,0.98,1,llm
+899880,Will KB Home (KBH) beat quarterly earnings?,KBH,0.95,1,llm
+658568,Will KKR & Co (KKR) beat quarterly earnings?,KKR,1.0,1,llm
+2048150,Will KKR (KKR) beat quarterly earnings?,KKR,1.0,1,llm
+619538,Will Key (KEY) beat quarterly earnings?,KEY,0.98,1,llm
+1118342,Will KeyCorp (KEY) beat quarterly earnings?,KEY,1.0,1,llm
+614647,Will Kinder Morgan (KMI) beat quarterly earnings?,KMI,0.95,1,llm
+675620,Will Kohls (KSS) beat quarterly earnings?,KSS,1.0,1,llm
+697472,Will Korn Ferry (KFY) beat quarterly earnings?,KFY,1.0,1,llm
+647818,Will Kraft Heinz (KHC) beat quarterly earnings?,KHC,1.0,1,llm
+1386902,Will Krispy Kreme (DNUT) beat quarterly earnings?,DNUT,1.0,1,llm
+697475,Will Kroger (KR) beat quarterly earnings?,KR,1.0,1,llm
+675503,Will La-Z-Boy (LZB) beat quarterly earnings?,LZB,0.95,1,llm
+643023,Will Labcorp Holdings (LH) beat quarterly earnings?,LH,0.9,1,llm
+703175,Will Lamb Weston Holdings (LW) beat quarterly earnings?,LW,0.95,1,llm
+627753,Will Las Vegas Sands (LVS) beat quarterly earnings?,LVS,1.0,1,llm
+899879,Will Lennar Corp (LEN) beat quarterly earnings?,LEN,1.0,1,llm
+613049,Will Levi Strauss & Co. (LEVI) beat quarterly earnings?,LEVI,1.0,1,llm
+627649,Will Lockheed Martin (LMT) beat quarterly earnings?,LMT,1.0,1,llm
+1367587,Will Lowe's (LOW) beat quarterly earnings?,LOW,0.98,1,llm
+675506,Will Lowe's Companies (LOW) beat quarterly earnings?,LOW,0.98,1,llm
+0x713bdf7975f449c3e8d61ddd5f2f840d4be0eb8b1a02d6afbf6b09ba3ff9aaf2,Will Lululemon (LULU) beat quarterly earnings?,LULU,1.0,1,llm
+1494817,Will Lululemon Athletica (LULU) beat quarterly earnings?,LULU,1.0,1,llm
+652646,Will Lyft (LYFT) beat quarterly earnings?,LYFT,0.95,1,llm
+1099457,Will M&T Bank (MTB) beat quarterly earnings?,MTB,1.0,1,llm
+1288097,Will MGM Resorts (MGM) beat quarterly earnings?,MGM,1.0,1,llm
+647822,Will MGM Resorts International (MGM) beat quarterly earnings?,MGM,1.0,1,llm
+1652246,Will MSC Industrial Direct (MSM) beat quarterly earnings?,MSM,1.0,1,llm
+643033,Will MSCI (MSCI) beat quarterly earnings?,MSCI,0.9,1,llm
+697451,Will Macy's (M) beat quarterly earnings?,M,1.0,1,llm
+2048143,Will Marathon Petroleum (MPC) beat quarterly earnings?,MPC,0.95,1,llm
+1230453,Will Marathon Petroleum Corp (MPC) beat quarterly earnings?,MPC,1.0,1,llm
+658481,Will Marex Group (MRX) beat quarterly earnings?,MRX,1.0,1,llm
+658624,Will MarketAxess Holdings (MKTX) beat quarterly earnings?,MKTX,1.0,1,llm
+2062037,Will Marketaxess (MKTX) beat quarterly earnings?,MKTX,0.95,1,llm
+2062027,Will Marriott (MAR) beat quarterly earnings?,MAR,1.0,1,llm
+656755,Will Marriott International (MAR) beat quarterly earnings?,MAR,1.0,1,llm
+0xcde399d8da0d2d5502fcc74b265cd8656f767363a9b1d25bf3308540d93cad7e,Will Marvell Tech (MRVL) beat quarterly earnings?,MRVL,0.874,1,llm
+1404331,Will Marvell Technology (MRVL) beat quarterly earnings?,MRVL,1.0,1,llm
+647938,Will Mastercard (MA) beat quarterly earnings?,MA,1.0,1,llm
+627652,Will Mattel (MAT) beat quarterly earnings?,MAT,1.0,1,llm
+614637,Will McCormick & Company (MKC) beat quarterly earnings?,MKC,0.95,1,llm
+0x21f9de68c8740eb2d70c4954b09cde27faebfc48f327d3fbc87282b017314f59,Will McCormick (MKC) beat quarterly earnings?,MKC,0.874,1,llm
+2062059,Will McDonald's (MCD) beat quarterly earnings?,MCD,1.0,1,llm
+655260,Will McDonald’s (MCD) beat quarterly earnings?,MCD,0.98,1,llm
+1118344,Will Mercantile Bank (MBWM) beat quarterly earnings?,MBWM,0.9,1,llm
+2003557,Will Merck & Co (MRK) beat quarterly earnings?,MRK,0.98,1,llm
+1287877,Will Merck & Co Inc (MRK) beat quarterly earnings?,MRK,1.0,1,llm
+1254012,Will MetLife (MET) beat quarterly earnings?,MET,0.9,1,llm
+647819,Will Meta Platforms (META) beat quarterly earnings?,META,1.0,1,llm
+1254528,Will Microchip Technology (MCHP) beat quarterly earnings?,MCHP,0.95,1,llm
+598107,Will Micron Tech (MU) beat its quarterly EPS estimate?,MU,1.0,1,llm
+703110,Will Micron Technology (MU) beat quarterly earnings?,MU,1.0,1,llm
+643054,Will Microsoft (MSFT) beat quarterly earnings?,MSFT,1.0,1,llm
+599651,Will MillerKnoll (MLKN) beat its quarterly EPS estimate?,MLKN,1.0,1,llm
+657079,Will Moderna (MRNA) beat quarterly earnings?,MRNA,1.0,1,llm
+696247,Will MongoDB (MDB) beat quarterly earnings?,MDB,1.0,1,llm
+656874,Will Monster Beverage (MNST) beat quarterly earnings?,MNST,1.0,1,llm
+627671,Will Moody's (MCO) beat quarterly earnings?,MCO,1.0,1,llm
+614614,Will Morgan Stanley (MS) beat quarterly earnings?,MS,0.95,1,llm
+703121,Will NIKE (NKE) beat quarterly earnings?,NKE,1.0,1,llm
+675504,Will NVIDIA (NVDA) beat quarterly earnings?,NVDA,1.0,1,llm
+1986800,Will NXP Semiconductors (NXPI) beat quarterly earnings?,NXPI,1.0,1,llm
+627653,Will Nasdaq (NDAQ) beat quarterly earnings?,NDAQ,1.0,1,llm
+1367670,Will Navitas Semiconductor (NVTS) beat quarterly earnings?,NVTS,0.95,1,llm
+627654,Will Netflix (NFLX) beat quarterly earnings?,NFLX,1.0,1,llm
+1892080,Will Netflix Inc (NFLX) beat quarterly earnings?,NFLX,1.0,1,llm
+652605,Will New York Times (NYT) beat quarterly earnings?,NYT,0.95,1,llm
+1238100,Will New York Times Company (NYT) beat quarterly earnings?,NYT,0.9,1,llm
+657065,Will News Corp (NWSA) beat quarterly earnings?,NWSA,1.0,1,llm
+2168997,Will Newsmax (NMAX) beat quarterly earnings?,NMAX,0.9,1,llm
+1651878,Will Nike (NKE) beat quarterly earnings?,NKE,1.0,1,llm
+637819,Will Northern Trust (NTRS) beat quarterly earnings?,NTRS,1.0,1,llm
+627657,Will Northrop Grumman (NOC) beat quarterly earnings?,NOC,1.0,1,llm
+620032,Will Nurix Therapeutics (NRIX) beat quarterly earnings?,NRIX,0.95,1,llm
+1237792,Will O'Reilly Automotive (ORLY) beat quarterly earnings?,ORLY,0.95,1,llm
+2039916,Will ON Semiconductor (ON) beat quarterly earnings?,ON,1.0,1,llm
+647823,Will Oatly Group (OTLY) beat quarterly earnings?,OTLY,1.0,1,llm
+1339584,Will Occidental Petroleum (OXY) beat quarterly earnings?,OXY,1.0,1,llm
+696257,Will Okta (OKTA) beat quarterly earnings?,OKTA,1.0,1,llm
+614638,Will Omnicom Group (OMC) beat quarterly earnings?,OMC,0.95,1,llm
+0x8a0d635536dfd78add95268d601b05567b6ce8a3412e0cb8cf2c28c97d9e5945,Will Opendoor (OPEN) beat quarterly earnings?,OPEN,1.0,1,llm
+657064,Will Opendoor Technologies (OPEN) beat quarterly earnings?,OPEN,1.0,1,llm
+1421676,Will Oracle (ORCL) beat quarterly earnings?,ORCL,1.0,1,llm
+637846,Will Otis Worldwide (OTIS) beat quarterly earnings?,OTIS,1.0,1,llm
+1545610,Will PDD Holdings (PDD) beat quarterly earnings?,PDD,0.9,1,llm
+637879,Will PG&E (PCG) beat quarterly earnings?,PCG,1.0,1,llm
+2048134,Will PJT (PJT) beat quarterly earnings?,PJT,1.0,1,llm
+0x798fecf33230e3b20823dcb611efc3646bc711f9b17b3cc0b580e6b88dbe44b1,Will PJT Partners (PJT) beat quarterly earnings?,PJT,1.0,1,llm
+1819883,Will PNC (PNC) beat quarterly earnings?,PNC,1.0,1,llm
+1099182,Will PNC Financial Services (PNC) beat quarterly earnings?,PNC,1.0,1,llm
+674922,Will PagerDuty (PD) beat quarterly earnings?,PD,0.95,1,llm
+2039920,Will Palantir (PLTR) beat quarterly earnings?,PLTR,1.0,1,llm
+652465,Will Palantir Technologies (PLTR) beat quarterly earnings?,PLTR,1.0,1,llm
+1230449,Will Palantir Technologies Inc (PLTR) beat quarterly earnings?,PLTR,1.0,1,llm
+675505,Will Palo Alto Networks (PANW) beat quarterly earnings?,PANW,0.98,1,llm
+2062064,Will Papa John's (PZZA) beat quarterly earnings?,PZZA,1.0,1,llm
+1369672,Will Papa John's International (PZZA) beat quarterly earnings?,PZZA,1.0,1,llm
+658493,Will Papa John’s International (PZZA) beat quarterly earnings?,PZZA,1.0,1,llm
+647847,Will Paramount Group (PSKY) beat quarterly earnings?,PSKY,1.0,1,llm
+599650,Will Pathward Financial (CASH) beat its quarterly EPS estimate?,CASH,1.0,1,llm
+2048152,Will PayPal (PYPL) beat quarterly earnings?,PYPL,1.0,1,llm
+643036,Will PayPal Holdings (PYPL) beat quarterly earnings?,PYPL,0.95,1,llm
+703174,Will Paychex (PAYX) beat quarterly earnings?,PAYX,1.0,1,llm
+0xcf80afdbed83953f3a1c9af5c95a46fbe3bcfd2c81c6aff26b8d866c32471695,Will Peloton Interactive (PTON) beat quarterly earnings?,PTON,1.0,1,llm
+0xbcc4a0abc46ae57ebfbb0c2fdd4dbf68d53e4164570c1994b8fe9afb92f0d3cf,Will Penguin Solutions (PENG) beat quarterly earnings?,PENG,1.0,1,llm
+643053,Will Penske Automotive Group (PAG) beat quarterly earnings?,PAG,0.9,1,llm
+613050,Will PepsiCo (PEP) beat quarterly earnings?,PEP,1.0,1,llm
+1230451,Will PepsiCo Inc (PEP) beat quarterly earnings?,PEP,1.0,1,llm
+656746,Will Pfizer (PFE) beat quarterly earnings?,PFE,1.0,1,llm
+1230452,Will Pfizer Inc (PFE) beat quarterly earnings?,PFE,1.0,1,llm
+627658,Will Philip Morris International (PM) beat quarterly earnings?,PM,1.0,1,llm
+656831,Will Pinterest (PINS) beat quarterly earnings?,PINS,1.0,1,llm
+2039909,Will Piper Sandler (PIPR) beat quarterly earnings?,PIPR,1.0,1,llm
+642125,Will Piper Sandler Companies (PIPR) beat quarterly earnings?,PIPR,1.0,1,llm
+668475,Will Pixelworks (PXLW) beat quarterly earnings?,PXLW,0.95,1,llm
+1435762,Will Playboy (PLBY) beat quarterly earnings?,PLBY,1.0,1,llm
+675497,Will Powell Industries (POWL) beat quarterly earnings?,POWL,0.95,1,llm
+1139580,Will Procter & Gamble (PG) beat quarterly earnings?,PG,0.98,1,llm
+599652,Will Progress Software (PRGS) beat its quarterly EPS estimate?,PRGS,1.0,1,llm
+627659,Will PulteGroup (PHM) beat quarterly earnings?,PHM,1.0,1,llm
+1472017,Will Qatar strike Iran by March 31?,USO,0.54,1,llm
+655399,Will Qualcomm (QCOM) beat quarterly earnings?,QCOM,0.95,1,llm
+2168993,Will Quantum Computing (QUBT) beat quarterly earnings?,QUBT,0.9,1,llm
+627660,Will Quest Diagnostics (DGX) beat quarterly earnings?,DGX,1.0,1,llm
+0x32a06e33e81a79256cc5154cffc07cf3604b48fd33db895dc78a7a08b9e0836a,Will RH (RH) beat quarterly earnings?,RH,0.874,1,llm
+657013,Will Ralph Lauren (RL) beat quarterly earnings?,RL,1.0,1,llm
+637847,Will Raymond James Financial (RJF) beat quarterly earnings?,RJF,1.0,1,llm
+1369669,Will RealReal (REAL) beat quarterly earnings?,REAL,1.0,1,llm
+648379,Will Reddit (RDDT) beat quarterly earnings?,RDDT,1.0,1,llm
+619983,Will Resources Connection (RGP) beat quarterly earnings?,RGP,0.95,1,llm
+619980,Will Richardson Electronics (RELL) beat quarterly earnings?,RELL,0.95,1,llm
+657435,Will Rivian Automotive (RIVN) beat quarterly earnings?,RIVN,1.0,1,llm
+655400,Will Robinhood Markets (HOOD) beat quarterly earnings?,HOOD,0.95,1,llm
+647962,Will Roblox (RBLX) beat quarterly earnings?,RBLX,1.0,1,llm
+1369645,Will Rocket Lab (RKLB) beat quarterly earnings?,RKLB,1.0,1,llm
+647966,Will Roku (ROKU) beat quarterly earnings?,ROKU,1.0,1,llm
+642128,Will Royal Caribbean Cruises (RCL) beat quarterly earnings?,RCL,1.0,1,llm
+697469,Will Rubrik (RBRK) beat quarterly earnings?,RBRK,1.0,1,llm
+2129326,Will Rumble (RUM) beat quarterly earnings?,RUM,0.95,1,llm
+648017,Will S&P Global (SPGI) beat quarterly earnings?,SPGI,1.0,1,llm
+637880,Will S&T Bancorp (STBA) beat quarterly earnings?,STBA,1.0,1,llm
+637848,Will SEI Investments (SEIC) beat quarterly earnings?,SEIC,1.0,1,llm
+1937072,Will SS&C Technologies (SSNC) beat quarterly earnings?,SSNC,1.0,1,llm
+637883,Will SS&C Technologies Holdings (SSNC) beat quarterly earnings?,SSNC,1.0,1,llm
+697446,Will Salesforce (CRM) beat quarterly earnings?,CRM,1.0,1,llm
+697468,Will Samsara (IOT) beat quarterly earnings?,IOT,1.0,1,llm
+0x7e53cf31b446a4f131d9218cb5b42e2e22860183ec89fc354d6c3b47f0543a05,Will Sandisk (SNDK) beat quarterly earnings?,WDC,1.0,1,llm
+1472019,Will Saudi Arabia strike Iran by March 31?,USO,0.7124999999999999,1,llm
+675618,Will Semtech (SMTC) beat quarterly earnings?,SMTC,1.0,1,llm
+620052,Will ServisFirst Bancshares (SFBS) beat quarterly earnings?,SFBS,0.95,1,llm
+648033,Will Shake Shack (SHAK) beat quarterly earnings?,SHAK,1.0,1,llm
+0x9a14a5f8fac102b6e37face4df35b0447e7b25a4dee4296d18f03a1bef49cdb0,Will Shopify (SHOP) beat quarterly earnings?,SHOP,1.0,1,llm
+643037,Will Shutterstock (SSTK) beat quarterly earnings?,SSTK,0.9,1,llm
+1404417,Will Smith & Wesson (SWBI) beat quarterly earnings?,SWBI,1.0,1,llm
+697447,Will Snowflake (SNOW) beat quarterly earnings?,SNOW,1.0,1,llm
+643038,Will SoFi Technologies (SOFI) beat quarterly earnings?,SOFI,0.95,1,llm
+656785,Will Sonos (SONO) beat quarterly earnings?,SONO,1.0,1,llm
+1371036,Will SoundHound AI (SOUN) beat quarterly earnings?,SOUN,1.0,1,llm
+637863,Will Southwest Airlines (LUV) beat quarterly earnings?,LUV,1.0,1,llm
+697452,Will Sprinklr (CXM) beat quarterly earnings?,CXM,1.0,1,llm
+643045,Will Starbucks (SBUX) beat quarterly earnings?,SBUX,0.98,1,llm
+619541,Will State Street (STT) beat quarterly earnings?,STT,0.95,1,llm
+2062029,Will StoneX (SNEX) beat quarterly earnings?,SNEX,0.95,1,llm
+668520,Will StoneX Group (SNEX) beat quarterly earnings?,SNEX,0.95,1,llm
+0x902a21e79f5e818458f783575c3c02f51971fff136fc6c41a9ddc8132ae3bd96,Will Strategy (MSTR) beat quarterly earnings?,MSTR,1.0,1,llm
+1428533,Will StubHub (STUB) beat quarterly earnings?,STUB,1.0,1,llm
+1326546,Will Sunoco (SUN) beat quarterly earnings?,SUN,1.0,1,llm
+1369644,Will Sweetgreen (SG) beat quarterly earnings?,SG,1.0,1,llm
+643046,Will Sysco (SYY) beat quarterly earnings?,SYY,1.0,1,llm
+1287906,Will T-Mobile (TMUS) beat quarterly earnings?,TMUS,1.0,1,llm
+637884,Will T-Mobile US (TMUS) beat quarterly earnings?,TMUS,1.0,1,llm
+2062030,Will TKO Group (TKO) beat quarterly earnings?,TKO,0.95,1,llm
+655448,Will TKO Group Holdings (TKO) beat quarterly earnings?,TKO,0.95,1,llm
+1273386,Will TPG (TPG) beat quarterly earnings?,TPG,1.0,1,llm
+1114909,Will Taiwan Semiconductor (TSM) beat quarterly earnings?,TSM,1.0,1,llm
+675507,Will Target (TGT) beat quarterly earnings?,TGT,0.98,1,llm
+642124,Will Teladoc Health (TDOC) beat quarterly earnings?,TDOC,1.0,1,llm
+648038,Will Teleflex (TFX) beat quarterly earnings?,TFX,1.0,1,llm
+614615,Will Tesla (TSLA) beat quarterly earnings?,TSLA,0.95,1,llm
+627663,Will Texas Instruments (TXN) beat quarterly earnings?,TXN,1.0,1,llm
+1339770,Will Texas Roadhouse (TXRH) beat quarterly earnings?,TXRH,1.0,1,llm
+675520,Will The Gap (GAP) beat quarterly earnings?,GAP,0.95,1,llm
+675629,Will The J. M. Smucker (SJM) beat quarterly earnings?,SJM,1.0,1,llm
+668497,Will The Walt Disney Company (DIS) beat quarterly earnings?,DIS,1.0,1,llm
+1321481,Will The Williams Companies (WMB) beat quarterly earnings?,WMB,1.0,1,llm
+1386999,Will Theravance Biopharma (TBPH) beat quarterly earnings?,TBPH,1.0,1,llm
+656730,Will Toast (TOST) beat quarterly earnings?,TOST,1.0,1,llm
+1326168,Will Tower Semiconductor (TSEM) beat quarterly earnings?,TSEM,1.0,1,llm
+637885,Will Tractor Supply (TSCO) beat quarterly earnings?,TSCO,1.0,1,llm
+1369194,Will Trade Desk (TTD) beat quarterly earnings?,TTD,1.0,1,llm
+648217,Will Tradeweb Markets (TW) beat quarterly earnings?,TW,1.0,1,llm
+658488,Will Tripadvisor (TRIP) beat quarterly earnings?,TRIP,1.0,1,llm
+619557,Will Truist Financial (TFC) beat quarterly earnings?,TFC,0.98,1,llm
+554577,Will Trump announce military action against Iran before July?,USO,0.7200000000000001,1,llm
+554577,Will Trump announce military action against Iran before July?,XLE,0.6400000000000001,1,llm
+0x459bde2fcf6d0a9fc8f1d1c6665c247a8d82a222c4ff3a68b8c0ace0430856a9,Will Tyson Foods (TSN) beat quarterly earnings?,TSN,1.0,1,llm
+619549,Will U.S. Bancorp (USB) beat quarterly earnings?,USB,0.95,1,llm
+1118263,Will US Bancorp (USB) beat quarterly earnings?,USB,1.0,1,llm
+2062071,Will US Foods (USFD) beat quarterly earnings?,USFD,1.0,1,llm
+657018,Will US Foods Holding (USFD) beat quarterly earnings?,USFD,1.0,1,llm
+1465966,"Will US or Israel strike Iran on March 1, 2026?",USO,0.7200000000000001,1,llm
+1465975,"Will US or Israel strike Iran on March 10, 2026?",USO,0.7200000000000001,1,llm
+1465975,"Will US or Israel strike Iran on March 10, 2026?",XLE,0.6400000000000001,1,llm
+1465967,"Will US or Israel strike Iran on March 2, 2026?",USO,0.7200000000000001,1,llm
+1465968,"Will US or Israel strike Iran on March 3, 2026?",USO,0.7200000000000001,1,llm
+1465969,"Will US or Israel strike Iran on March 4, 2026?",USO,0.7200000000000001,1,llm
+1465969,"Will US or Israel strike Iran on March 4, 2026?",XLE,0.6400000000000001,1,llm
+1465970,"Will US or Israel strike Iran on March 5, 2026?",USO,0.7200000000000001,1,llm
+1465970,"Will US or Israel strike Iran on March 5, 2026?",XLE,0.6400000000000001,1,llm
+1465971,"Will US or Israel strike Iran on March 6, 2026?",USO,0.7200000000000001,1,llm
+1465971,"Will US or Israel strike Iran on March 6, 2026?",XLE,0.6400000000000001,1,llm
+1465972,"Will US or Israel strike Iran on March 7, 2026?",USO,0.7200000000000001,1,llm
+1465972,"Will US or Israel strike Iran on March 7, 2026?",XLE,0.6400000000000001,1,llm
+1465973,"Will US or Israel strike Iran on March 8, 2026?",USO,0.7200000000000001,1,llm
+1465973,"Will US or Israel strike Iran on March 8, 2026?",XLE,0.6400000000000001,1,llm
+1465974,"Will US or Israel strike Iran on March 9, 2026?",USO,0.7200000000000001,1,llm
+1465974,"Will US or Israel strike Iran on March 9, 2026?",XLE,0.6400000000000001,1,llm
+0x28672a0b6507d61e5530fe2a585dbe5c9eb9cd3a9b9845332ebf4883bfe2a5eb,Will USA Rare Earth (USAR) beat quarterly earnings?,USAR,1.0,1,llm
+1371096,Will USA TODAY (TDAY) beat quarterly earnings?,TDAY,1.0,1,llm
+2062032,Will Uber (UBER) beat quarterly earnings?,UBER,1.0,1,llm
+643047,Will Uber Technologies (UBER) beat quarterly earnings?,UBER,0.98,1,llm
+658487,Will Under Armour (UAA) beat quarterly earnings?,UAA,1.0,1,llm
+637886,Will Union Pacific (UNP) beat quarterly earnings?,UNP,1.0,1,llm
+1118156,Will United Airlines (UAL) beat quarterly earnings?,UAL,1.0,1,llm
+1160451,Will United Bankshares (UBSI) beat quarterly earnings?,UBSI,0.92,1,llm
+696263,Will United Natural Foods (UNFI) beat quarterly earnings?,UNFI,1.0,1,llm
+643048,Will United Parcel Service (UPS) beat quarterly earnings?,UPS,0.98,1,llm
+643051,Will UnitedHealth Group (UNH) beat quarterly earnings?,UNH,0.98,1,llm
+619852,Will Unity Bancorp (UNTY) beat quarterly earnings?,UNTY,0.95,1,llm
+675496,Will Urban Outfitters (URBN) beat quarterly earnings?,URBN,0.95,1,llm
+701994,Will Vail Resorts (MTN) beat quarterly earnings?,MTN,1.0,1,llm
+1971815,Will Verizon (VZ) beat quarterly earnings?,VZ,1.0,1,llm
+627749,Will Verizon Communications (VZ) beat quarterly earnings?,VZ,1.0,1,llm
+675508,Will Viking Holdings (VIK) beat quarterly earnings?,VIK,0.95,1,llm
+1387001,Will Virgin Galactic (SPCE) beat quarterly earnings?,SPCE,1.0,1,llm
+668514,Will Virgin Galactic Holdings (SPCE) beat quarterly earnings?,SPCE,0.95,1,llm
+2003526,Will Virtu Financial (VIRT) beat quarterly earnings?,VIRT,0.95,1,llm
+1244935,Will Visa (V) beat quarterly earnings?,V,0.95,1,llm
+1735233,Will WD-40 (WDFC) beat quarterly earnings?,WDFC,1.0,1,llm
+637859,Will WD-40 Company (WDFC) beat quarterly earnings?,WDFC,1.0,1,llm
+675511,Will Walmart (WMT) beat quarterly earnings?,WMT,1.0,1,llm
+1230450,Will Walt Disney Co (DIS) beat quarterly earnings?,DIS,1.0,1,llm
+1369646,Will Warby Parker (WRBY) beat quarterly earnings?,WRBY,1.0,1,llm
+657003,Will Warner Bros. Discovery (WBD) beat quarterly earnings?,WBD,1.0,1,llm
+1326576,Will Waystar (WAY) beat quarterly earnings?,WAY,1.0,1,llm
+648224,Will Waystar Holding (WAY) beat quarterly earnings?,WAY,1.0,1,llm
+675502,Will Weibo (WB) beat quarterly earnings?,WB,0.95,1,llm
+1099135,Will Wells Fargo & Co (WFC) beat quarterly earnings?,WFC,1.0,1,llm
+613055,Will Wells Fargo (WFC) beat quarterly earnings?,WFC,1.0,1,llm
+1326457,Will Wendy's (WEN) beat quarterly earnings?,WEN,1.0,1,llm
+658905,Will Wendy’s (WEN) beat quarterly earnings?,WEN,1.0,1,llm
+652509,Will Williams Companies (WMB) beat quarterly earnings?,WMB,1.0,1,llm
+674909,Will Williams-Sonoma (WSM) beat quarterly earnings?,WSM,0.95,1,llm
+1339470,Will Wingstop (WING) beat quarterly earnings?,WING,1.0,1,llm
+1118157,Will Wintrust Financial (WTFC) beat quarterly earnings?,WTFC,1.0,1,llm
+675510,Will Wix.Com (WIX) beat quarterly earnings?,WIX,0.95,1,llm
+1360933,Will Wix.com (WIX) beat quarterly earnings?,WIX,0.95,1,llm
+674910,Will Woodward (WWD) beat quarterly earnings?,WWD,0.95,1,llm
+675616,Will Workday (WDAY) beat quarterly earnings?,WDAY,1.0,1,llm
+0x6784146a751c0b64cb52e97d0dae093dff760e61206d0f40bf19b9f0bb9c302c,Will Workday Q1 total subscription revenue backlog be above $27.5B?,WDAY,1.0,1,llm
+1293048,Will Wynn Resorts (WYNN) beat quarterly earnings?,WYNN,1.0,1,llm
+658486,Will Yelp (YELP) beat quarterly earnings?,YELP,1.0,1,llm
+1237794,Will Yum! Brands (YUM) beat quarterly earnings?,YUM,0.95,1,llm
+675603,Will Zoom Communications (ZM) beat quarterly earnings?,ZM,0.95,1,llm
+0x03af7b38eb9f47d4f014a5101c99841acae80009f18ce65b0c765fefd3e7b61b,Will ZoomInfo Technologies (GTM) beat quarterly earnings?,GTM,1.0,1,llm
+1466766,Will a Gulf State strike Iran by March 7?,USO,0.675,1,llm
+1472026,Will another country strike Iran by March 31?,USO,0.63,1,llm
+1485135,Will another country strike Iran by March 7?,USO,0.63,1,llm
+647811,Will eBay (EBAY) beat quarterly earnings?,EBAY,1.0,1,llm
+0x5112d5717618c96026e2770565c889068636b30e67ba5686f4d95dff153cb333,Will eToro (ETOR) beat quarterly earnings?,ETOR,1.0,1,llm
+2335553,Will lululemon athletica (LULU) beat quarterly earnings?,LULU,1.0,1,llm
+566029,Will the FDA approve Odronextamab/Ordspono Resubmitted BLA?,REGN,0.95,1,llm
+566028,Will the FDA approve Sepiapterin NDA?,PTCT,0.95,1,llm
+566025,Will the FDA approve TransCon hGH sBLA?,ASND,0.95,1,llm
+553540,Will the U.S. strike Fordow nuclear facility before July?,USO,0.7200000000000001,1,llm
+553540,Will the U.S. strike Fordow nuclear facility before July?,XLE,0.6400000000000001,1,llm
+1273938,"Will the US not strike Iran by February 28, 2026?",USO,0.6400000000000001,-1,llm
+1273938,"Will the US not strike Iran by February 28, 2026?",XLE,0.5599999999999999,-1,llm
+1359830,"Will the US not strike Iran by March 31, 2026?",USO,0.5599999999999999,-1,llm
+0x9a21e81fe56f92ffc029ebdd92dda7a7d45f0c65e10f8f4b3c8d047c62211b47,"Will the US x Iran ceasefire be extended by April 14, 2026?",USO,0.7,-1,llm

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Per-run audit trail written by the backtest driver (regenerated on every run;
+# the practical outputs are committed under notebooks/outputs/).
+runs/
+.venv/
+venv/
