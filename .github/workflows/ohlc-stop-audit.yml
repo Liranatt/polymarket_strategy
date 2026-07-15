@@ -1,0 +1,117 @@
+name: Gap-aware OHLC T1-T4 Audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'audit/**'
+      - '.github/workflows/ohlc-stop-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-opens:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt yfinance pyarrow
+      - name: Verify frozen artifacts match the user-supplied files
+        run: |
+          echo '58dc6f7ca7c02dd1cf7679d8948f8d14deef40d1abf70e81528213ab049bb068  data/candidates_audit_clean.parquet' | sha256sum -c -
+          echo '64de652ed0617fc70b25a8fd430956faa9c8e7647c855f671d4afe2df891764e  data/prices.pkl' | sha256sum -c -
+          echo 'ec3bd7eb08ecc31986e01e37c0cd84338732f0a2807c7e6edd86a9630d3fe347  data/probs.pkl' | sha256sum -c -
+          echo '7906c38d25d544bcca8e9d396a02fec156bc03ee64e54257b1d298a49a6edbb2  data/polarity_labels.json' | sha256sum -c -
+      - name: Fetch and align daily opens
+        run: python -m audit.fetch_daily_opens
+      - name: Upload open artifact and alignment evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: aligned-daily-opens
+          path: |
+            data/opens.pkl
+            audit_artifacts/open_alignment_by_symbol.csv
+            audit_artifacts/open_alignment_summary.json
+          retention-days: 7
+
+  matrix:
+    needs: fetch-opens
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        seed: [42, 43, 44]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt pyarrow
+      - uses: actions/download-artifact@v4
+        with:
+          name: aligned-daily-opens
+          path: downloaded-opens
+      - name: Install aligned open artifact
+        run: cp downloaded-opens/data/opens.pkl data/opens.pkl
+      - name: Static and execution invariant tests
+        run: |
+          python -m compileall -q audit core backtesting
+          python -m audit.test_ohlc_kernel
+      - name: Run full T1-T4 matrix
+        shell: bash
+        run: |
+          EXTRA=''
+          if [ '${{ matrix.seed }}' = '42' ]; then EXTRA='--detailed'; fi
+          python -m audit.run_ohlc_matrix \
+            --seed '${{ matrix.seed }}' \
+            --run-id 'ohlc_seed_${{ matrix.seed }}' \
+            --experiments all \
+            --benchmarks SPY QQQ \
+            --cem-iters 6 --cem-pop 20 \
+            $EXTRA
+      - name: Upload seed output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ohlc-seed-${{ matrix.seed }}
+          path: runs/ohlc_seed_${{ matrix.seed }}/
+          retention-days: 7
+
+  aggregate:
+    needs: matrix
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ohlc-seed-*
+          path: downloaded
+      - uses: actions/download-artifact@v4
+        with:
+          name: aligned-daily-opens
+          path: audit_artifacts/open_alignment
+      - name: Aggregate results
+        run: python -m audit.aggregate_ohlc_results
+      - name: Upload final audit package
+        uses: actions/upload-artifact@v4
+        with:
+          name: gap-aware-ohlc-t1t4-results
+          path: |
+            audit_artifacts/aggregate/
+            audit_artifacts/open_alignment/
+          retention-days: 7
