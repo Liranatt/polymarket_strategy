@@ -1,6 +1,8 @@
 name: Export Audit Inputs
 
 on:
+  push:
+    branches: [chatgpt/notebook-audit-2026-07-15]
   pull_request:
     branches: [main]
   workflow_dispatch:
