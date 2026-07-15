@@ -34,6 +34,8 @@ jobs:
           PY
       - name: Fetch and validate raw Yahoo daily OHLC
         run: python -m audit.fetch_yahoo_chart_ohlc
+      - name: Align opens to frozen HLC scale
+        run: python -m audit.export_aligned_opens
       - name: Upload OHLC artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,4 +44,8 @@ jobs:
             audit_artifacts/yahoo_daily_ohlc.pkl
             audit_artifacts/yahoo_daily_ohlc_summary.json
             audit_artifacts/yahoo_ohlc_alignment.csv
+            audit_artifacts/aligned_opens.pkl
+            audit_artifacts/aligned_opens.csv.gz
+            audit_artifacts/aligned_open_coverage.csv
+            audit_artifacts/aligned_open_summary.json
           retention-days: 7
