@@ -1,6 +1,9 @@
 name: ChatGPT Strategy Audit
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - chatgpt/audit-2026-07-15
