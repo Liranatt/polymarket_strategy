@@ -1,0 +1,31 @@
+name: Frozen Data Hash Audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/hash-frozen-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  hashes:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Record checkout identity and hashes
+        run: |
+          git rev-parse HEAD > hashes.txt
+          git log -1 --oneline >> hashes.txt
+          ls -l data/candidates_audit_clean.parquet data/prices.pkl data/probs.pkl data/polarity_labels.json >> hashes.txt
+          sha256sum data/candidates_audit_clean.parquet data/prices.pkl data/probs.pkl data/polarity_labels.json >> hashes.txt
+          cat hashes.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frozen-data-hashes
+          path: hashes.txt
+          retention-days: 7

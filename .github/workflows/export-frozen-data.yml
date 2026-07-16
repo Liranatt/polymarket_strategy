@@ -1,0 +1,27 @@
+name: Export Frozen Binary Data
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-frozen-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frozen-repo-candidates-prices
+          path: |
+            data/candidates_audit_clean.parquet
+            data/prices.pkl
+          compression-level: 0
+          retention-days: 7
