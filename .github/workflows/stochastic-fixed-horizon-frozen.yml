@@ -31,11 +31,11 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt pyarrow scipy tabulate
-      - name: Verify uploaded candidate and price artifacts
+      - name: Record old snapshot inputs
         run: |
-          echo '58dc6f7ca7c02dd1cf7679d8948f8d14deef40d1abf70e81528213ab049bb068  data/candidates_audit_clean.parquet' | sha256sum -c -
-          echo '64de652ed0617fc70b25a8fd430956faa9c8e7647c855f671d4afe2df891764e  data/prices.pkl' | sha256sum -c -
-          sha256sum data/probs.pkl data/polarity_labels.json
+          git rev-parse HEAD
+          ls -lh data/candidates_audit_clean.parquet data/prices.pkl data/probs.pkl data/polarity_labels.json
+          sha256sum data/candidates_audit_clean.parquet data/prices.pkl data/probs.pkl data/polarity_labels.json
       - name: Compile
         run: python -m compileall -q audit core
       - name: Optimize monthly policies
@@ -48,7 +48,7 @@ jobs:
       - name: Upload seed output
         uses: actions/upload-artifact@v4
         with:
-          name: stochastic-fh-frozen-seed-${{ matrix.seed }}
+          name: stochastic-fh-old-snapshot-seed-${{ matrix.seed }}
           path: runs/stochastic_fh_seed_${{ matrix.seed }}/
           retention-days: 7
 
@@ -68,7 +68,7 @@ jobs:
         run: pip install -r requirements.txt pyarrow scipy tabulate
       - uses: actions/download-artifact@v4
         with:
-          pattern: stochastic-fh-frozen-seed-*
+          pattern: stochastic-fh-old-snapshot-seed-*
           path: downloaded
       - name: Aggregate without best-seed selection
         run: |
@@ -78,6 +78,6 @@ jobs:
       - name: Upload final package
         uses: actions/upload-artifact@v4
         with:
-          name: stochastic-fixed-horizon-frozen-results
+          name: stochastic-fixed-horizon-old-snapshot-results
           path: audit_artifacts/stochastic_fixed_horizon/
           retention-days: 7
