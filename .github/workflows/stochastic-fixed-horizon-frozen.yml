@@ -1,0 +1,84 @@
+name: Stochastic Fixed-Horizon Frozen Audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'audit/stochastic_fixed_horizon.py'
+      - 'audit/aggregate_stochastic_fixed_horizon.py'
+      - '.github/workflows/stochastic-fixed-horizon-frozen.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  optimize:
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        seed: [42, 43, 44, 45, 46]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt pyarrow scipy tabulate
+      - name: Verify exact frozen inputs
+        run: |
+          echo '58dc6f7ca7c02dd1cf7679d8948f8d14deef40d1abf70e81528213ab049bb068  data/candidates_audit_clean.parquet' | sha256sum -c -
+          echo '64de652ed0617fc70b25a8fd430956faa9c8e7647c855f671d4afe2df891764e  data/prices.pkl' | sha256sum -c -
+          echo 'ec3bd7eb08ecc31986e01e37c0cd84338732f0a2807c7e6edd86a9630d3fe347  data/probs.pkl' | sha256sum -c -
+          echo '7906c38d25d544bcca8e9d396a02fec156bc03ee64e54257b1d298a49a6edbb2  data/polarity_labels.json' | sha256sum -c -
+      - name: Compile
+        run: python -m compileall -q audit core
+      - name: Optimize monthly policies
+        run: |
+          python -u -m audit.stochastic_fixed_horizon \
+            --seed '${{ matrix.seed }}' \
+            --iterations 5 \
+            --population 120 \
+            --run-id 'stochastic_fh_seed_${{ matrix.seed }}'
+      - name: Upload seed output
+        uses: actions/upload-artifact@v4
+        with:
+          name: stochastic-fh-frozen-seed-${{ matrix.seed }}
+          path: runs/stochastic_fh_seed_${{ matrix.seed }}/
+          retention-days: 7
+
+  aggregate:
+    needs: optimize
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt pyarrow scipy tabulate
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: stochastic-fh-frozen-seed-*
+          path: downloaded
+      - name: Aggregate without best-seed selection
+        run: |
+          python -u -m audit.aggregate_stochastic_fixed_horizon \
+            --input-root downloaded \
+            --output audit_artifacts/stochastic_fixed_horizon
+      - name: Upload final package
+        uses: actions/upload-artifact@v4
+        with:
+          name: stochastic-fixed-horizon-frozen-results
+          path: audit_artifacts/stochastic_fixed_horizon/
+          retention-days: 7
